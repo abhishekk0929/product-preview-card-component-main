@@ -1,0 +1,233 @@
+* {
+ 
+  padding: 0;
+  box-sizing: border-box;}
+
+
+
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+   overflow: hidden;
+}
+
+
+.container
+{
+    background-color: white;
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+/* padding: 0.2rem; */
+border: none;
+border-radius: 10px;
+margin-bottom: 51px;
+
+}
+.imgg {
+    width: 100%;
+    max-width: 375px;
+    border: none;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+    margin-bottom: 16px;
+}
+.per {
+    align-self: flex-start;
+     color: hsl(228, 12%, 48%);
+     font-family: "Montserrat", sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     font-size: 14px;
+     margin-left: 33px;
+
+}
+main{
+display: flex;
+  justify-content: center;
+   align-content: center;
+   height: 100vh;
+
+}
+.container h1 {
+     font-family: "Fraunces", serif;
+     align-self: baseline;
+  margin-top: 0px;
+  margin-left: 32px;
+}
+
+.gab{
+      align-self: flex-start;
+     color: hsl(228, 12%, 48%);
+     font-family: "Montserrat", sans-serif;
+     letter-spacing: 5px;
+     font-size: 14px;
+      margin-left: 33px;
+      letter-spacing: 1px;
+  margin-top: -8px;
+  line-height: 1.5;
+}
+.num .new-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+font-family: "Fraunces", serif;
+
+}
+.num {
+    display: flex;
+  gap: 16px;
+  align-self: flex-start;
+  margin-top: 0.75rem;
+  margin-left: 2rem;
+}
+
+.num .old-price 
+{
+     color: hsl(228, 12%, 48%);
+     font-family: "Montserrat", sans-serif;
+     text-decoration: line-through;
+     margin-top: 0.8rem;
+}
+.butt  
+{
+  align-self: flex-start;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.button {
+    
+    display: flex;
+  padding: 1rem;
+   padding-right: 5.8125rem;
+  padding-left:  5.8125rem;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  gap: 10px;
+   font-family: "Montserrat", sans-serif;
+   border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.button:active {
+  transform: scale(0.97);
+
+
+
+
+
+}
+.att {
+    position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  opacity: 0.8;
+  z-index: 10;
+}
+.att a {
+  color: hsl(158, 36%, 37%);
+}
+
+
+@media (min-width:1440px) {
+.container {
+  display: flex;
+  flex-direction: row;
+ margin: auto;   
+   max-width:  100%;
+ width: 625px;
+
+}
+
+  .imgg {
+content: url(images/image-product-desktop.jpg);
+   width: 50%;
+   margin-bottom: 0px;
+   border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+     
+}
+.desk  {
+    width: 50%;
+    padding: 2rem;
+  }
+ 
+  .button{
+
+ display: flex;
+    padding: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 3.813rem;
+    padding-left: 3.813rem;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    gap: 10px;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+.per{
+ align-self: flex-start;
+     color: hsl(228, 12%, 48%);
+     font-family: "Montserrat", sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     font-size: 14px;
+    margin-left: 0px;
+
+
+}
+.container h1{
+  font-family: "Fraunces", serif;
+     align-self: baseline;
+  margin-top: 0px;
+  margin-left: 5px;}
+
+.gab{
+      align-self: flex-start;
+     color: hsl(228, 12%, 48%);
+     font-family: "Montserrat", sans-serif;
+     letter-spacing: 5px;
+     font-size: 14px;
+      margin-left: 33px;
+      letter-spacing: 1px;
+  margin-top: -8px;
+  line-height: 1.5;
+}
+.button:hover{
+  background-color: hsl(158, 42%, 18%);
+}
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
