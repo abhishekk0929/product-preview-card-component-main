@@ -8,7 +8,7 @@ Live Demo: [https://abhishekk0929.github.io/product-preview-card-component-main/
 ## 📸 Screenshot
 
 <!-- Replace with your actual screenshot file path if available -->
-![Product Preview Card Screenshot](./design/# 🛍️ Product Preview Card Component
+![Product Sale Screenshot](design/productsale-@abhi.png)
 
 This is my solution to the [Product Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).  
 Live Demo: [https://abhishekk0929.github.io/product-preview-card-component-main/](https://abhishekk0929.github.io/product-preview-card-component-main/)
